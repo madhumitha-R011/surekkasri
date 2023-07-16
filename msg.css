@@ -1,0 +1,123 @@
+.con{
+    position: relative;
+    background-image:  rgb(9, 9, 9);
+   
+    margin-top:10%;
+   margin-bottom:0%;
+ 
+    padding-bottom:02px;
+    margin-right: 20%;
+    margin-left: 34%;
+    border-radius: 1000px;
+   box-shadow: 3px 6px 5px rgb(13, 13, 13);
+   transition:  0.5s ease-in-out;
+
+   opacity:1;
+   
+   border: 10px solid rgb(8, 9, 9); border-radius: 30px;
+}
+.con:hover{
+    background-image:linear-gradient(aqua,rgb(238, 47, 234),rgb(157, 214, 23)) ;
+    box-shadow: 3px 6px 5px black;
+}
+h2{
+    padding-top:47% ;
+}
+@keyframes changeColor {
+    0% {
+        background-color: rgb(175, 249, 46);
+    }
+
+    10% {
+        background-color: rgb(81, 218, 236);
+    }
+
+    20% {
+        background-color: rgb(46, 240, 230);
+    }
+
+    30% {
+        background-color: rgb(213, 224, 8);
+    }
+
+    40% {
+        background-color: rgb(220, 15, 220);
+    }
+
+    50% {
+        background-color: rgb(36, 6, 88);
+    }
+
+    60% {
+        background-color: rgb(224, 86, 11);
+    }
+
+    70% {
+        background-color: rgb(113, 155, 199);
+    }
+
+    80% {
+        background-color: rgb(131, 16, 208);
+    }
+
+    90% {
+        background-color: rgb(212, 26, 88);
+    }
+
+    100% {
+        background-color: rgb(202, 232, 34);
+    }
+}
+
+body {
+    background: rgb(10, 10, 10);
+    animation: changeColor 1s infinite;
+content: "";
+height: 100%;
+width: 90%;
+}
+.top{
+    margin-top:25px;
+    padding: auto;
+   
+}
+input{
+    box-shadow:3px 7px 7px;
+    border-radius: 47px;
+    border-color: rgb(2, 2, 2);
+    padding-left: 14%;
+    padding-bottom:3%;
+}
+button{
+    box-shadow:3px 7px 7px ;
+    border-radius: 100px;
+    border-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content:space-evenly;
+    height: 35px;
+    width: 90px;
+}
+.outputmsg{
+    font-size: small;
+    font-style: italic;
+    text-shadow: 2px 6px 6px rgb(15, 15, 15);
+    position: absolute;
+}
+.button{
+    
+    position: absolute;
+    margin-top:100%;
+}
+button:hover{
+    background-color:rgb(46, 245, 195);
+    transform: scale(0.7);
+}
+input:hover{
+    background-color:rgb(46, 245, 195) ;
+}
+.title{
+
+    padding-top:2%;
+  font-size:23px;
+    text-shadow: 2px 3px 5px rgb(49, 49, 49) ;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhu</title>
+    <link rel="stylesheet" href="msg.css">
+    <!-- <script src="msg.js"></script> -->
+</head>
+<body><center>
+   
+    <div class="con">
+        <div class="title"> 
+        <h3><marquee>❤Enter The Message!</marquee></h3></div>
+    <div class="top">
+        <label>✨✉️</label>
+   <p><input type="text" style="font-size:12px;" id="inputmsg" placeholder="Drop UR Msg"></p>
+   <br>
+</div>
+<div class="button"></div>
+<p>
+<button id="click" onclick="message()"><b>submit</b></button><br>
+<button id="click" onclick="message()"><b>Reset</b></button>
+</p>
+<!-- <div class="outputmsg"> -->
+<p id="outputmsg" style=" font-size:30px; text-align: center;text-shadow: 3px 7px 7px  rgb(128, 128, 128,9px);"></p>
+</div>
+</div>
+</div>
+</center>
+
+</center>
+<script>
+    const msginput=document.getElementById("inputmsg");
+function message(){
+    document.getElementById("outputmsg").innerHTML=msginput.value;
+    msginput.value="";
+}
+</script>
+    
+</body>
+</html>
